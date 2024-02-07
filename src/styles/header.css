@@ -1,0 +1,23 @@
+@import url('./global.css');
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+header a {
+    color: var(--ColorPrimary);
+}
+header .logo img {
+    height: auto;
+    width: 12%;
+}
+.scroll-menu {
+    background-color: var(--ColorContrast);
+    transition: 1.5s;
+    padding: 12px 2%;
+}
