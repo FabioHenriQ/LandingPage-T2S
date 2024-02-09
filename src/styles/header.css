@@ -1,6 +1,7 @@
 @import url('./global.css');
 
 header {
+    z-index: 1;
     display: flex;
     position: fixed;
     width: 100vw;
@@ -8,6 +9,11 @@ header {
     align-items: center;
     justify-content: center;
     transition: .5s;
+
+    background: #275dffa6;
+    -webkit-backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 header a {
     color: var(--ColorPrimary);
@@ -17,7 +23,11 @@ header .logo img {
     width: 12%;
 }
 .scroll-menu {
-    background-color: var(--ColorContrast);
+    background: rgba( 0, 0, 0, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 60px );
+    backdrop-filter: blur( 60px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: 1.5s;
-    padding: 12px 2%;
+    padding: 8px 2%;
 }

@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+
     <script src="./src/scripts/main.js" defer></script>
+
     <link rel="stylesheet" href="./src/styles/global.css">
     <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/home.css">
+    <link rel="stylesheet" href="./src/styles/benefit.css">
+    <link rel="stylesheet" href="./src/styles/infos.css">
+    <link rel="stylesheet" href="./src/styles/backgroundLayout.css">
 
     <title>Desenvolvimento de Sistemas</title>
 </head>
 <body>
-    <div class="backgroundLayout"></div>
-    <a href="#home" class="pageUp"><i><img src="./src/assets/icons/seta-para-cima.png" alt=""></i></a>
-    <div class="backgroundPageUp upOne"></div>
-    <div class="backgroundPageUp upTwo"></div>
+    <!-- Background and button Up -->
+    <div class="background layoutHome"></div>
+    <div class="background layoutInfo"></div>
+    <a href="#home" title="Ir para o topo" class="pageUp"><i><img src="./src/assets/icons/seta-para-cima.png" alt=""></i></a>
+    <!-- ------------------------ -->
 
     <header id="header">
         <div class="logo">
@@ -25,9 +32,55 @@
             <a href="">QUEM SOMOS</a>
         </nav>
     </header>
-    <section id="home"></section>
-    <section></section>
 
+    <main>
+        <section id="home">
+            <h1>Desenvolvimento de Sistemas</h1>
+            <p>Qualidade Performance Escalabilidade</p>
+            <p>Nossos serviços de Desenvolvimento de Software são um dos melhores do Brasil, vamos criar soluções incriveis juntos!</p>
+            <div class="container_buttons">
+                <a href="">Solicitar Software</a>
+                <a href="#benefits">Beneficios</a>
+            </div>
+        </section>
+
+        <section id="benefits">
+            <div class="container_cards">
+                <div class="card">
+                    <div class="benefit-icon">
+                        <i><img src="./src/assets/icons/escalavel.png" alt="icones"></i>
+                    </div>
+                    <h4>Escalável</h4>
+                    <p>dlsdkslkdlsd</p>
+                </div>
+                <div class="card">
+                    <div class="benefit-icon">
+                        <i><img src="./src/assets/icons/atuacao.png" alt="icones"></i>
+                    </div>
+                    <h4>Alta Performance</h4>
+                    <p>dlsdkslkdlsd</p>
+                </div>
+                <div class="card">
+                    <div class="benefit-icon">
+                        <i><img src="./src/assets/icons/qualidade.png" alt="icones"></i>
+                    </div>
+                    <h4>Qualidade</h4>
+                    <p>dlsdkslkdlsd</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        
+        <section id="infos">
+            <h3>O foco é realizar os sonhos dos nossos clientes!</h3>
+            <p>sla sla sla sla blz kkkkk</p>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/yl3dOT10ujo" title="T2S - O QUE NOSSOS CLIENTES FALAM DE NÓS" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="Technologies"></section>
+    </main>
 
     <!-- <iframe title="Formulario Lead" src="https://docs.google.com/forms/d/e/1FAIpQLSdX8E3N3xOHXgVuFpP7Z1Q0C7KpMTqTSZaJF4bE6ePZMw1G9A/viewform?embedded=true" width="640" height="879" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe> -->
    

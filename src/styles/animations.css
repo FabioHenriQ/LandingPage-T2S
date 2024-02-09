@@ -2,9 +2,17 @@
 
 @keyframes backgroundAnimation {
     from {
-        box-shadow: -500px 60px #afa2a23f;
+        box-shadow: -500px 100px #afa2a23f;
     }
     to {
-        box-shadow: -400px 60px #afa2a23f;
+        box-shadow: -400px 100px #afa2a23f;
+    }
+}
+@keyframes pageUpAnimation {
+    from {
+        bottom: 5%;
+    }
+    to {
+        bottom: 4%;
     }
 }

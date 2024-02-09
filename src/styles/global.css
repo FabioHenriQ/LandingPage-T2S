@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
 @import url('./animations.css');
 
 :root {
@@ -12,46 +13,49 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+h1, h2, h3, h4 {
+    font-family: 'Roboto Slab', 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
     position: relative;
     overflow-x: hidden;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 section {
-    height: 100vh;
-    border: 1px solid #000;
+    width: 100%;
+    min-height: 60vh;
 }
-.backgroundLayout {
-    z-index: -1;
-    top: -150px;
-    left: -80px;
-    position: absolute;
-    height: 100vh;
-    width: 120vw;
+hr {
+    width: 5%;
     background-color: var(--ColorSecondary);
-    transform: rotate(-10deg);
-
-    animation-name: backgroundAnimation;
-    animation-duration: 10s;
-    animation-fill-mode: both;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+    height: 3px;
+    margin: 30px 0 10px 0;
 }
-.pageUp, .backgroundPageUp {
+.pageUp {
     position: fixed;
+    transition: 1s;
     bottom: 5%;
     right: 2%;
+    display: none;
 }
-.upOne {
-    width: 100px;
-    height: 20px;
-    background-color: aqua;
-    transform: rotate(-10deg);
-    z-index: -1;
+.pageUp {
+    animation-name: pageUpAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-.upTwo {
-    width: 100px;
-    height: 20px;
-    background-color: aqua;
-    transform: rotate(-10deg);
-    z-index: -1;
+.showPageUp:hover {
+    transform: scale(1.1);
+}
+.showPageUp {
+    display: block;
+    transition: 1s;
 }

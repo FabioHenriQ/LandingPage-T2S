@@ -1,0 +1,33 @@
+@import url('./global.css');
+
+#infos {
+    text-align: center;
+
+}
+#infos h3 {
+    font-size: 2.3rem;
+    margin: 1%;
+}
+#infos p {
+    margin-bottom: 1%;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.video {
+    height: 70vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../assets/images/notebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+iframe {
+    width: 41%;
+    height: 48vh;
+    margin-bottom: 8%;
+    border-radius: 6px;
+}
