@@ -1,7 +1,7 @@
 @import url('./global.css');
 
 header {
-    z-index: 1;
+    z-index: 2;
     display: flex;
     position: fixed;
     width: 100vw;
@@ -15,23 +15,9 @@ header {
     backdrop-filter: blur( 2px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-header nav {
-    display: flex;
-    text-align: center;
-    margin-right: 2%;
-}
-header a {
-    width: 120px;
-    padding: 3px;
-    color: var(--ColorPrimary);
-    text-decoration: none;
-}
-header a:hover {
-    text-decoration: underline;
-}
 header .logo img {
     height: auto;
-    width: 12%;
+    width: 135px;
 }
 .scroll-menu {
     background: rgba( 0, 0, 0, 0.6 );

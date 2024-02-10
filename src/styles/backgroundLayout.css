@@ -61,6 +61,37 @@
 }
 /* -------------------------- */
 
+/* Background FormLead */
+.bar {
+    transform: rotate(-10deg);
+    width: 20%;
+    height: 10%;
+}
+.position1 {
+    top: 42%;
+    left: 20%;
+    background-color: #12318d;
+}
+.position2 {
+    top: 53%;
+    left: 15%;
+    background-color: #3860d8;
+}
+.position3 {
+    bottom: 10%;
+    right: 20%;
+    background-color: #12318d;
+}
+.barFormLead {
+    transform: rotate(-7deg);
+    width: 70%;
+    height: 24vh;
+    bottom: 18%;
+    background-color: #12318d;
+    box-shadow: -50px -150px #3860d8, 50px -150px #3860d8;
+}
+/* -------------------------- */
+
 .layoutFooter {
     left: -5%;
     top: 16%;
@@ -74,13 +105,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-}
-/* Background FormLead */
-
-.bar {
-    transform: rotate(-10deg);
-    top: 0;
-    width: 20%;
-    height: 10%;
-    background-color: #12318d;
 }

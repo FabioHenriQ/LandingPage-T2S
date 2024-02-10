@@ -1,14 +1,34 @@
 @import url('./global.css');
 
-#formLead {
-    display: flex;
-    justify-content: space-between;
-}
 
+.container_infos-formLead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container_image-formLead {
     position: relative;
+    text-align: center;
+    width: 50%;
 }
-.container_form-formLead iframe {
-    width: 90%;
-    border: 1px solid var(--ColorSecondary);
+.container_image-formLead img {
+    height: 50%;
+    width: 50%;
+}
+.container_about-formLead {
+    width: 50%;
+}
+.container_about-formLead  h4 {
+    font-size: 2.3rem;
+}
+.form {
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+.form iframe {
+    width: 50%;
+    height: 100vh;
+    box-shadow: 1px 3px 10px;
 }
