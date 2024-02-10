@@ -6,13 +6,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
 }
 #technologies h4 {
     font-size: 2.3rem;
 }
 .container_infos-technologies {
     max-width: 40%;
+}
+.container_infos-technologies p {
+    margin: 3% 0 3% 0;
+    font-weight: 300;
 }
 .container_cards-technologies {
     gap: 4%;
@@ -21,4 +25,13 @@
 }
 .container_cards-technologies, .container_infos-technologies {
     margin-left: 10%;
+}
+.card-tech {
+    padding: 15px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #d3d3d3,
+             -20px -20px 60px #ededed;
 }

@@ -35,8 +35,17 @@ footer ul {
     text-align: center;
     margin-top: 10%;
 }
-.container_info-footer hr {
+.container_info-footer h4 {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.container_info-footer p {
+    margin-top: 1%;
+    font-weight: 300;
     width: 50%;
+}
+.container_info-footer hr {
+    width: 5%;
     border: 0;
 }
 .container_midia-social {

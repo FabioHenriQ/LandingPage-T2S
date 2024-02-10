@@ -16,10 +16,14 @@
     width: 50%;
 }
 .container_about-formLead {
-    width: 50%;
+    width: 40%;
 }
 .container_about-formLead  h4 {
     font-size: 2.3rem;
+}
+.container_about-formLead p {
+    margin-top: 2%;
+    font-weight: 300;
 }
 .form {
     position: relative;

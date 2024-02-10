@@ -1,6 +1,9 @@
 @import url('./global.css');
 
 #infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     position: relative;
 }
@@ -12,10 +15,11 @@
     margin-bottom: 1%;
     font-weight: 300;
     font-size: 1.1rem;
+    max-width: 50%;
 }
 .video {
-    height: 70vh;
-    width: auto;
+    height: 64vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,8 +31,8 @@
     filter: drop-shadow(10px 15px 15px);
 }
 iframe {
-    width: 41%;
-    height: 48vh;
+    height: 69%;
+    width: 37%;
     margin-bottom: 8%;
     border-radius: 6px;
 }
