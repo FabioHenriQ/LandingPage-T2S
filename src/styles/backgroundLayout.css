@@ -3,10 +3,10 @@
 .background {
     z-index: -1;
     position: absolute;
-    background-color: var(--ColorSecondary);
 }
 
 .layoutHome {
+    background-color: var(--ColorSecondary);
     width: 120vw;
     top: -150px;
     left: -80px;
@@ -24,10 +24,63 @@
     background-position: right;
 }
 .layoutInfo {
-    width: 60vw;
+    background-color: var(--ColorSecondary);
+    width: 50vw;
     height: 25vh;
     left: 100px;
-    top: 1350px;
+    top: 450px;
     box-shadow: -150px -120px #12318d;
     transform: rotate(-10deg);
+}
+
+/* Section  Technologies */
+.layoutTechnologies {
+    top: -39px;
+    left: -50px;
+    width: 150%;
+    height: 100%;
+    background-color: #cccccc;
+    box-shadow: inset 50vw 0px 500px #fdfdfd;
+
+    background-image: url('../assets/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 60%;
+    background-blend-mode: luminosity;
+
+    transform: rotate(-10deg);
+}
+.barTechnologies {
+    background-color: var(--ColorSecondary);
+    width: 50vw;
+    height: 20vh;
+    right: -40%;
+    bottom:-15%;
+    box-shadow: -150px -120px #12318d;
+    transform: rotate(-10deg);
+}
+/* -------------------------- */
+
+.layoutFooter {
+    left: -5%;
+    top: 16%;
+    width: 110%;
+    height: 101%;
+    background-color: var(--ColorSecondary);
+    box-shadow: inset 10px 10px 200px,inset 10px 10px 300px;
+
+    transform: rotate(-7deg);
+    background-image: url('../assets/images/meeting-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+/* Background FormLead */
+
+.bar {
+    transform: rotate(-10deg);
+    top: 0;
+    width: 20%;
+    height: 10%;
+    background-color: #12318d;
 }

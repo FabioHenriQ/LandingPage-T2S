@@ -1,0 +1,14 @@
+@import url('./global.css');
+
+#formLead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_image-formLead {
+    position: relative;
+}
+.container_form-formLead iframe {
+    width: 90%;
+    border: 1px solid var(--ColorSecondary);
+}

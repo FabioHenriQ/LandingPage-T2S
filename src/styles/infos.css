@@ -2,7 +2,7 @@
 
 #infos {
     text-align: center;
-
+    position: relative;
 }
 #infos h3 {
     font-size: 2.3rem;
@@ -24,6 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    filter: drop-shadow(10px 15px 15px);
 }
 iframe {
     width: 41%;
