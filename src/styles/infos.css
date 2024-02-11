@@ -37,8 +37,13 @@ iframe {
     border-radius: 6px;
 }
 
-@media screen and (max-width: 1060px) {
-    
+@media screen and (max-width: 900px) {
+
+    iframe {
+        height: 43vh;
+        width: 65%;
+        margin-bottom: 13%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -50,9 +55,15 @@ iframe {
         max-width: 80%;
     }
     iframe {
-        height: 39%;
-        width: 90%;
+        height: 22vh;
+        width: 80%;
         margin-bottom: 16%;
         border-radius: 6px;
+    }
+}
+@media screen and (max-width: 640px) {
+
+    iframe {
+        height: 34vh;
     }
 }
