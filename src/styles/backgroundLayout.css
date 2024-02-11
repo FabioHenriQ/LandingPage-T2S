@@ -8,8 +8,8 @@
 .layoutHome {
     background-color: var(--ColorSecondary);
     width: 120vw;
-    top: -150px;
-    left: -80px;
+    top: -25%;
+    left: -10%;
     height: 100vh;
     transform: rotate(-10deg);
 
@@ -105,4 +105,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+}
+
+@media screen and (max-width: 1060px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .layoutHome {
+        left: -20%;
+        width: 150vw;
+        background-position: 200px;
+    }
 }
