@@ -1,7 +1,7 @@
 @import url('./global.css');
 
 footer {
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -39,7 +39,7 @@ footer ul {
     font-size: 1.3rem;
 }
 .container_info-footer p {
-    margin-top: 1%;
+    margin: 1% 0 1% 0;
     font-weight: 300;
     width: 50%;
 }
@@ -64,7 +64,7 @@ footer ul {
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     footer {
         justify-content: center;
     }

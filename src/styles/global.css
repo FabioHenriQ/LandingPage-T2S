@@ -6,6 +6,8 @@
     --ColorPrimary: #fff;
     --ColorSecondary: #3265ff;
     --ColorContrast: #000;
+
+    --MobilePx: 700px;
 }
 * {
     padding: 0;
@@ -27,6 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 section {
     width: 100%;

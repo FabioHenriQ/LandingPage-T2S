@@ -41,7 +41,7 @@ iframe {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #infos h3 {
         font-size: 1.3rem;
     }
@@ -51,7 +51,7 @@ iframe {
     }
     iframe {
         height: 39%;
-        width: 80%;
+        width: 90%;
         margin-bottom: 16%;
         border-radius: 6px;
     }
