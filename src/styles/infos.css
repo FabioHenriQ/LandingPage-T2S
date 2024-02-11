@@ -36,3 +36,23 @@ iframe {
     margin-bottom: 8%;
     border-radius: 6px;
 }
+
+@media screen and (max-width: 1060px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    #infos h3 {
+        font-size: 1.3rem;
+    }
+    #infos p {
+        font-size: 1rem;
+        max-width: 80%;
+    }
+    iframe {
+        height: 53%;
+        width: 80%;
+        margin-bottom: 16%;
+        border-radius: 6px;
+    }
+}

@@ -64,3 +64,22 @@ footer ul {
 .icons-list li:hover {
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+    .container_info-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .container_info-footer h4 {
+        font-size: 1rem;
+    }
+    .container_info-footer p {
+        margin-top: 5%;
+        font-weight: 300;
+        font-size: .9rem;
+        width: 70%;
+    }
+}
