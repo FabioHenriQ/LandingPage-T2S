@@ -7,7 +7,8 @@ Eu escolhi o serviço de Desenvolvimento de Sistemas e decidi fazer como se foss
 Criar uma landing page atraente para promover um serviço da T2S.
 Implementar um formulário de registro de leads.
 ### RESULTADO
-Pode ver a Landing Page no ar por este link: landing-page-t2s.netlify.app
+Pode ver a Landing Page no ar por este link:
+[landing-page-t2s.netlify.app](https://landing-page-t2s.netlify.app/)
 ### BOAS PRÁTICAS
 Usei tags semânticas e apliquei SEO e SMO.
 Escrevi classes e IDs em inglês.
